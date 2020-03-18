@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+  background-color: rgba(0,0,0,.95);
+}
+
+.header .menu-button {
+  font-size: 0;
+  width: 18px;
+  height: 12px;
+  background: linear-gradient(to bottom, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%);
+  border: none;
+}
+
+.header-navigation {
+  display: none;
+}
