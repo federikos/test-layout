@@ -22,4 +22,5 @@ Chrome (last version)
 Mozilla (last version)
 Safari (last version)
 Edge (last version)
+
 Time: 10h
