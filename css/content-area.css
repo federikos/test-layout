@@ -75,7 +75,8 @@ th, td {
 }
 
 ol.inside-list-style-position {
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
   list-style-position: inside;
 }
 
@@ -84,7 +85,8 @@ ol.inside-list-style-position li > h2:first-child, ol li > p:first-child {
 }
 
 ol.outside-list-style-position {
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
   margin-left: 20px;
   list-style-position: outside;
 }
