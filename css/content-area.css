@@ -1,15 +1,68 @@
+@media (max-width: 989.98px) {
+  p, h1, h2 {
+    line-height: 28px;
+  }
+}
+
+h1 {
+  font-size: 4vw;
+  margin-top: 0;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 30px 15px;
+}
+
 table {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+table.capitalize-th th {
+  text-transform: capitalize;
+}
+
+th, td {
+  vertical-align: top;
+  padding: 0;
+}
+
+th p, td p, ol p {
+  margin: 0 0 1em;
+}
+
+.rm-margin {
+  margin: 0;
+}
+
+.add-margin-top {
+  margin-top: 1em;
+}
+
+
 .w20 {
   width: 20%;
 }
 
+.w33 {
+  width: 33%;
+}
+
 .w40 {
   width: 40%;
+}
+
+.w66 {
+  width: 66%;
 }
 
 ol {
@@ -19,4 +72,12 @@ ol {
 
 ol li > h2:first-child, ol li > p:first-child {
   display: inline;
+}
+
+ol li {
+  margin: 0 0 1em;
+}
+
+h2 + *, p + * {
+  margin-top: 1em;
 }
