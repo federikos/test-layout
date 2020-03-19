@@ -4,6 +4,11 @@
   }
 }
 
+main p,
+main h1 {
+  margin: 0 0 1em;
+}
+
 h1 {
   font-size: 4vw;
   margin-top: 0;
@@ -36,18 +41,9 @@ th, td {
   padding: 0;
 }
 
-th p, td p, ol p {
-  margin: 0 0 1em;
+.w5 {
+  width: 5%;
 }
-
-.rm-margin {
-  margin: 0;
-}
-
-.add-margin-top {
-  margin-top: 1em;
-}
-
 
 .w20 {
   width: 20%;
@@ -65,19 +61,29 @@ th p, td p, ol p {
   width: 66%;
 }
 
-ol {
+.margin-top {
+  margin-top: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.text-transform-none {
+  text-transform: none;
+}
+
+ol.inside-list-style-position {
   padding-inline-start: 0;
   list-style-position: inside;
 }
 
-ol li > h2:first-child, ol li > p:first-child {
+ol.inside-list-style-position li > h2:first-child, ol li > p:first-child {
   display: inline;
 }
 
-ol li {
-  margin: 0 0 1em;
-}
-
-h2 + *, p + * {
-  margin-top: 1em;
+ol.outside-list-style-position {
+  padding-inline-start: 0;
+  margin-left: 20px;
+  list-style-position: outside;
 }

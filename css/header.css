@@ -14,6 +14,7 @@
   height: 12px;
   background: linear-gradient(to bottom, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%);
   border: none;
+  cursor: pointer;
 }
 
 .header-navigation {

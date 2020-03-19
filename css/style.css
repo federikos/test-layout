@@ -18,6 +18,7 @@ body {
 
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 a {
@@ -37,6 +38,12 @@ a:active {
   color: #0056b3;
 }
 
+hr {
+  color: #333; 
+  opacity: 0.5; 
+  margin: 0
+}
+
 .logo {
   line-height: 0;
   padding-top: 10px;
@@ -46,6 +53,14 @@ a:active {
 .logo img {
   width: 80px;
   height: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.no-bold {
+  font-weight: normal;
 }
 
 /* .container {
