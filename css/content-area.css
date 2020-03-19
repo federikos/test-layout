@@ -1,7 +1,5 @@
-@media (max-width: 989.98px) {
-  p, h1, h2 {
-    line-height: 28px;
-  }
+p, h1, h2 {
+  line-height: 28px;
 }
 
 main p,
