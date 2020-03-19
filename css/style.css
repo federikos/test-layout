@@ -12,7 +12,7 @@ html, body {
 body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 4vw;
-  line-height: 1.7em;
+  /* line-height: 1.7em; */
   color: #212529;
 }
 
@@ -66,6 +66,18 @@ hr {
 
 .no-bold {
   font-weight: normal;
+}
+
+@media (min-width: 770px) {
+  body, h1, h2 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 990px) {
+  body, h1, h2 {
+    font-size: 18px;
+  }
 }
 
 /* .container {

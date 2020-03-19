@@ -18,7 +18,7 @@
 }
 
 .header-navigation {
-  /* display: none; */
+  display: none;
   position: absolute;
   padding-bottom: 20px;
   top: 60px;
@@ -50,4 +50,42 @@
 .sub-menu {
   /* display: none; */
   padding: 10px 0;
+}
+
+@media (min-width: 730px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 990px) {
+  .header .logo img {
+    width: 131px;
+  }
+}
+
+@media (min-width: 1249px) {
+  .header .menu-button {
+    display: none;
+  }
+  .header-navigation {
+    display: block;
+    position: static;
+  }
+  .header-navigation ul {
+    display: flex;
+  }
+  .header-navigation .sub-menu {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10000;
+    background: #333333;
+    /* position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0; */
+  }
 }
