@@ -30,12 +30,6 @@ footer .logo {
   margin-bottom: 30px;
 }
 
-.footer-social ul {
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-}
-
 .footer-social em {
   display: block;
   margin: 0;
@@ -48,8 +42,11 @@ footer .logo {
   line-height: 24px;
 }
 
+.footer-social ul {
+  display: flex;
+}
+
 .footer-social li {
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
