@@ -91,13 +91,12 @@
     padding-right: 0;
   }
 
+  .header-navigation a,
   .header-navigation a:hover,
-  .header-navigation a:active {
-    color: #ffffff;
-  }
-
-  .header-navigation a {
+  .header-navigation a:active,
+  .header-navigation a:visited {
     position: relative;
+    color: #ffffff;
   }
 
   .header-navigation > ul > li > a::after {
