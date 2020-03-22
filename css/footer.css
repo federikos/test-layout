@@ -206,8 +206,14 @@ footer .logo {
   .footer-menu li a {
     margin-right: 0;
   }
+  .footer-social em {
+    line-height: 28px;
+  }
   .footer-social a {
     margin-right: 10px;
+  }
+  .footer-bottom {
+    padding-top: 68px;
   }
   .footer-bottom address,
   .footer-bottom small {

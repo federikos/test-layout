@@ -22,13 +22,21 @@
 }
 
 .header-navigation {
-  display: none;
+  /* display: none; */
   position: absolute;
   padding-bottom: 20px;
   top: 60px;
   left: 0;
   right: 0;
   background: #333333;
+}
+
+.header-navigation a,
+.header-navigation a:hover,
+.header-navigation a:active,
+.header-navigation a:visited {
+  position: relative;
+  color: #ffffff;
 }
 
 .header-navigation ul {
@@ -89,14 +97,6 @@
 
   .header-navigation > ul li:last-child {
     padding-right: 0;
-  }
-
-  .header-navigation a,
-  .header-navigation a:hover,
-  .header-navigation a:active,
-  .header-navigation a:visited {
-    position: relative;
-    color: #ffffff;
   }
 
   .header-navigation > ul > li > a::after {
