@@ -59,6 +59,9 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  .menu-button {
+    margin-right: 2px; /* just replicate the initial behaviour */
+  }
 }
 
 @media (min-width: 990px) {

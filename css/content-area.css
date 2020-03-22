@@ -1,4 +1,7 @@
-p, h1, h2 {
+main p, 
+main h1, 
+main h2,
+main li {
   line-height: 28px;
 }
 
@@ -61,10 +64,6 @@ th, td {
 
 .w66 {
   width: 66%;
-}
-
-.th-padding-top-6 th {
-  padding-top: 6px;
 }
 
 .margin-top {
