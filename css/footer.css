@@ -23,6 +23,7 @@ footer .logo {
   opacity: 0.32;
 }
 
+.footer-menu li:last-child,
 .footer-menu li:last-child a {
   margin-right: 0;
 }
@@ -168,7 +169,8 @@ footer .logo {
 
 @media (min-width: 990px) {
   footer .logo img {
-    width: 174px;
+    width: 100%;
+    max-width: 174px;
   }
   .footer-social em {
     font-size: 22px;
@@ -176,6 +178,11 @@ footer .logo {
   }
   .footer-menu li a {
     font-size: 18px;
+    line-height: 22px;
+  }
+  .footer-bottom address,
+  .footer-bottom small {
+    margin-bottom: 10px;
   }
 }
 
@@ -199,9 +206,12 @@ footer .logo {
   .footer-menu li a {
     margin-right: 0;
   }
+  .footer-social a {
+    margin-right: 10px;
+  }
   .footer-bottom address,
   .footer-bottom small {
     font-size: 16px;
-    margin-bottom: 10px;
+    line-height: 28px;
   }
 }

@@ -71,6 +71,13 @@ a:active {
   font-weight: normal;
 }
 
+p, 
+h1, 
+h2,
+li {
+  line-height: 28px;
+}
+
 @media (min-width: 770px) {
   body, h1, h2 {
     font-size: 16px;
@@ -80,5 +87,12 @@ a:active {
 @media (min-width: 990px) {
   body, h1, h2 {
     font-size: 18px;
+  }
+  
+  p, 
+  h1, 
+  h2,
+  li {
+    line-height: 27px;
   }
 }
