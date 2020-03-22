@@ -23,6 +23,7 @@ h2 {
 main {
   max-width: 1000px;
   margin: auto;
+  margin-bottom: 1em;
   padding: 30px 15px;
   box-sizing: border-box;
 }
